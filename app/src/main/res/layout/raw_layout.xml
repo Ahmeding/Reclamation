@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+        android:layout_margin="5dp">
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:text="1"
+        android:textSize="30sp"
+        android:id="@+id/tvID"
+       android:gravity="center|left" />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    >
+    <TextView
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+        android:id="@+id/tvTitre" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+        android:layout_marginTop="15dp"
+        android:id="@+id/tvEtat"
+        android:textColor="@color/colorPrimary"/>
+</LinearLayout>
+<TextView
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/tvDate"
+    android:text="DATE"
+    android:textColor="@color/colorAccent"
+    android:layout_marginRight="10dp"
+    android:gravity="top|center"/>
+
+</LinearLayout>
+
+</RelativeLayout>

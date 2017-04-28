@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Gestion2Reclamation</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_liste_reclamation">ListeReclamationActivity</string>
+    <string name="title_activity_ajouter">AjouterActivity</string>
+    <string name="title_activity_modifier">ModifierActivity</string>
+    <string name="title_activity_reclamtion">ReclamtionActivity</string>
+    <string name="title_activity_intervention">InterventionActivity</string>
+    
+</resources>
